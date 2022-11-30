@@ -1,0 +1,77 @@
+/*
+
+    Selector {
+        property: value:
+        property: value:
+        property: value:
+        etc.
+    }
+
+    Selector options:
+
+    tag name, such as p or img
+    .classname, such as .green or .highlighted
+    tage.class, such as h1.green or p.highlighted
+
+*/
+
+.nav {
+    list-style: none;
+    margin: auto;
+    border-style: double;
+    padding: 0px;
+    width: 65%;
+}
+
+.nav>li {
+    text-align: center;
+    border-style: ridge;
+    
+}
+
+img {
+    display: block;
+    margin: 19%;
+    width: 60%;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: gainsboro;
+}
+
+
+p {
+    text-align: center;
+    background-color: gainsboro;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
+
+
+.lg {
+    margin: 10%;
+    width: 80%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: darkgray;
+}
+
+.nt {
+    display: inline-block;
+    margin: 2.7%;
+    width: 27%;
+    height: 400px;
+    
+}
+
+.sm {
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
+}
